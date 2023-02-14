@@ -14,7 +14,7 @@ const Hero = () => {
             <span className="text-orange-500">Foods </span>Delivered
           </h1>
         </div>
-        <img className="w-full max-h-[500px] object-cover" src="https://images.pexels.com/photos/15141034/pexels-photo-15141034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+        <img className="w-full max-h-[500px] object-cover" src="https://images.pexels.com/photos/15141034/pexels-photo-15141034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="/" />
       </div>
     </div>
   );
