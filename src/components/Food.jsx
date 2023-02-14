@@ -10,7 +10,7 @@ const Food = () => {
       data.filter((item) => {
         return item.category === category;
       })
-    );
+    )
   };
 
   //Filter by price
