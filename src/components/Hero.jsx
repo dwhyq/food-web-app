@@ -14,7 +14,7 @@ const Hero = () => {
             <span className="text-orange-500">Foods </span>Delivered
           </h1>
         </div>
-        <img className="w-full max-h-[500px] object-cover" src="https://images.pexels.com/photos/15141034/pexels-photo-15141034.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="/" />
+        <img className="w-full max-h-[500px] object-cover" src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=900&t=st=1676934848~exp=1676935448~hmac=d9255a8fcf5bbfa847e7149b0ddacba2833d42074570ee233348e76e41a510f6" alt="/" />
       </div>
     </div>
   );
