@@ -17,11 +17,11 @@ const Navbar = () => {
       {/* left side */}
       <div className="flex items-center">
         <div onClick={() => setNav(!nav)} className="cursor-pointer">
-          <AiOutlineMenu size={30} />
+          <AiOutlineMenu size={28} />
         </div>
 
-        <h1 className="text-2xl sm:text-3xl md:lg:text-4xl px-2">
-          Best <span className="font-bold">Eats</span>
+        <h1 className="text-xl sm:text-3xl md:lg:text-4xl px-1">
+          Good <span className="font-bold">Food</span>
         </h1>
 
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
@@ -31,10 +31,10 @@ const Navbar = () => {
       </div>
 
       {/* search input box */}
-      <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px] cursor-pointer">
+      <div className="bg-gray-200 rounded-full flex items-center px- sm:w-[400px] lg:w-[600px] cursor-pointer">
         <AiOutlineSearch size={25} />
         <input
-          className="bg-transparent p-2 focus:outline-none"
+          className="w-full bg-transparent p-2 focus:outline-none"
           type="text"
           placeholder="Search food"
         />
@@ -49,11 +49,11 @@ const Navbar = () => {
       {/* overlay */}
 
       {nav ? (
-        <div className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
+        <div onClick={() => setNav(!nav)} className="bg-black/80 fixed w-full h-screen z-10 top-0 left-0"></div>
       ) : (
         ""
       )}
-
+      
       {/* side -draw menu */}
       <div
         className={
@@ -61,6 +61,7 @@ const Navbar = () => {
             ? "fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300"
             : "fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300"
         }
+        
       >
         <AiOutlineClose
           onClick={() => setNav(!nav)}
