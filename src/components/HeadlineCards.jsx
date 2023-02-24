@@ -7,8 +7,8 @@ const HeadlineCards = () => {
       <div className="rounded-xl relative">
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
-          <p className="font-bold text-2xl px-2 pt-4">Sun's Out, BOGO's Out</p>
-          <p className="px-2">Through 8/26</p>
+          <p className="font-bold text-2xl px-2 pt-4">Belleful Combo on a Platter.</p>
+          <p className="px-2">For Family & Friends!</p>
           <button className="bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
@@ -25,9 +25,9 @@ const HeadlineCards = () => {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
           <p className="font-bold text-2xl px-2 pt-4">
-            New Restaurants added meal.
+            The Couple Combo.
           </p>
-          <p className="px-2">Try it out!</p>
+          <p className="px-2">For You & One Other!</p>
           <button className="bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
@@ -44,9 +44,9 @@ const HeadlineCards = () => {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
           <p className="font-bold text-2xl px-2 pt-4">
-            We deliver desserts too
+            Eat Alone Platter.
           </p>
-          <p className="px-2">Tasty treats</p>
+          <p className="px-2">Tasty Treats Just For You!</p>
           <button className="bg-white text-black mx-2 absolute bottom-4">
             Order Now
           </button>
