@@ -36,32 +36,32 @@ const Food = () => {
           <div className="flex flex-wrap">
             <button
               onClick={() => setFoods(data)}
-              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white focus:bg-orange-600 focus:text-white"
             >
               All
             </button>
             <button
               onClick={() => filterType("Breakfast")}
-              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white focus:bg-orange-600 focus:text-white"
             >
               Breakfast
             </button>
 
             <button
               onClick={() => filterType("Lunch")}
-              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white focus:bg-orange-600 focus:text-white"
             >
               Lunch
             </button>
             <button
               onClick={() => filterType("Dinner")}
-              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white focus:bg-orange-600 focus:text-white"
             >
               Dinner
             </button>
             <button
               onClick={() => filterType("Drinks")}
-              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
+              className="mr-1 border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white focus:bg-orange-600 focus:text-white"
             >
               Drinks
             </button>
@@ -74,7 +74,7 @@ const Food = () => {
           <div className="flex flex-wrap justify-between max-w-[390px] w-full">
             <button
               onClick={() => filterPrice("N500")}
-              className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white mr-1"
+              className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
               N500
             </button>
@@ -82,7 +82,7 @@ const Food = () => {
               onClick={() => {
                 filterPrice("N1000");
               }}
-              className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white mr-1"
+              className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
               N1000
             </button>
@@ -90,7 +90,7 @@ const Food = () => {
               onClick={() => {
                 filterPrice("N1500");
               }}
-              className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white mr-1"
+              className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
               N1500
             </button>
@@ -98,7 +98,7 @@ const Food = () => {
               onClick={() => {
                 filterPrice("N2000");
               }}
-              className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white mr-1"
+              className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
               N2000
             </button>
@@ -106,7 +106,7 @@ const Food = () => {
               onClick={() => {
                 filterPrice("N5000");
               }}
-              className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white mr-1"
+              className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
               N5000
             </button>
