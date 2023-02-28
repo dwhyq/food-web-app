@@ -21,8 +21,8 @@ const Navbar = () => {
           <AiOutlineMenu size={28} />
         </div>
 
-        <h1 className="text-xl sm:text-3xl md:lg:text-4xl px-1">
-          Best <span className="font-bold">Foods</span>
+        <h1 className="text-xl sm:text-3xl md:lg:text-4xl px-1 flex sm-sc:gap-1">
+          Tasty <span className="font-bold">Foods</span>
         </h1>
 
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
@@ -71,7 +71,7 @@ const Navbar = () => {
         />
         <a href="./Hero.jsx">
           <h2 className="text-2xl p-4">
-            Best <span className="font-bold">Eats</span>
+            Tasty <span className="font-bold">Foods</span>
           </h2>
         </a>
         <nav>
