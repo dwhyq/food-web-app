@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 import {
   AiOutlineMenu,
   AiOutlineSearch,
@@ -21,7 +22,7 @@ const Navbar = () => {
         </div>
 
         <h1 className="text-xl sm:text-3xl md:lg:text-4xl px-1">
-          Good <span className="font-bold">Food</span>
+          Best <span className="font-bold">Foods</span>
         </h1>
 
         <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
@@ -75,25 +76,25 @@ const Navbar = () => {
         </a>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <TbTruckDelivery size={25} className="mr-4" /> Orders
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+             <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <MdFavorite size={25} className="mr-4" /> Favorite
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <FaWallet size={25} className="mr-4" /> Wallet
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <MdHelp size={25} className="mr-4" /> Help
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <AiFillTag size={25} className="mr-4" /> Promotions
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <BsFillSaveFill size={25} className="mr-4" /> Best Orders
             </li>
-            <li className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
+            <li onClick={() => setNav(!nav)} className="text-xl py-4 flex hover:scale-105 duration-300 cursor-pointer">
               <FaUserFriends size={25} className="mr-4" /> Invite Friends
             </li>
           </ul>
