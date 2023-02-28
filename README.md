@@ -12,5 +12,5 @@ This project was built with `React` and `TailwindCSS`
 - View cart
  More features loading ...
 
-Live link here: [Food web App](https://https://food-web-app-dwhyq.vercel.app/)
+Live link here: [Food web App](https://food-web-app-dwhyq.vercel.app/)
 
