@@ -73,42 +73,42 @@ const Food = () => {
           <p className="font-bold text-gray-700">Select a Budget :</p>
           <div className="flex flex-wrap justify-between max-w-[390px] w-full">
             <button
-              onClick={() => filterPrice("N500")}
+              onClick={() => filterPrice("₦500")}
               className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
-              N500
+              ₦500
             </button>
             <button
               onClick={() => {
-                filterPrice("N1000");
+                filterPrice("₦1000");
               }}
               className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
-              N1000
+              ₦1000
             </button>
             <button
               onClick={() => {
-                filterPrice("N1500");
+                filterPrice("₦1500");
               }}
               className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
-              N1500
+              ₦1500
             </button>
             <button
               onClick={() => {
-                filterPrice("N2000");
+                filterPrice("₦2000");
               }}
               className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
-              N2000
+              ₦2000
             </button>
             <button
               onClick={() => {
-                filterPrice("N5000");
+                filterPrice("₦5000");
               }}
               className="border-orange-600 text-orange-600 hover:bg-orange-500 hover:text-white mr-1 focus:bg-orange-600 focus:text-white"
             >
-              N5000
+              ₦5000
             </button>
           </div>
         </div>
